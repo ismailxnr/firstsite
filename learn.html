@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/design.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>HomePage</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="layout.html"><img src="/items/cover-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="/index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/about us.html">BEGINNING</a>
+                    </li>
+                    <li>
+                        <a href="/learn.html">LEARN</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>LEARN</h1>
+      </section>
+      <section class="learn" id="learn">
+        <h1>Learn About Crypto</h1>
+        <p>With all of the crypto news websites out there, it might seem strange that I’m recommending the CryptoCurrency subreddit. Yes, there’s a bit of overlap with the infamous WSB (you’re guaranteed to constantly encounter “to the Moon” and “diamond hands”), but once I had a basic understanding of crypto, this subreddit turned out to be great for keeping updated with what’s happening out there! Although there’s a fair share of memes and questionable advice mixed in with informative posts, you’ll also feel like you’re part of a community (and maybe get a few laughs in too).</p>
+        <div class="row">
+            <div class="learn-col">
+                <img src="/items/maxim-hopman-fiXLQXAhCfk-unsplash.jpg">
+                <div class="layer">
+                    <h3>Exchange</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="beginning" id="beginning">
+        <h1>Getting Started with Crypto;</h1>
+        <p>If you’re curious about crypto but you’re not sure where to start, here are some ideas:</p>
+        <div class="row">
+            <div class="beginning-col">
+                <h3>The Bitcoin Standard</h3>
+                <p>This was the first book about crypto that I read — and it did a good job of explaining the implications of Bitcoin beyond the whole “this-can-potentially-make-me-a-lot-of-money” lure that usually gets people interested in crypto in the first place.
+
+                    There’s a reason why this book has more than 2,500 ratings on Amazon. It drives home exactly how Bitcoin can be so paradigm-changing and why it makes for a better currency and store of value than gold and paper money.</p>
+            </div>
+            <div class="beginning-col">
+                <h3>The Sovereign Individual</h3>
+                <p>TI found this book mind-blowing because it was published in the late 1990s, but so many of its predictions have come true. Its main premise is that we’re entering the “fourth stage of human society,” which will be marked by profound shifts in economics and politics. Although it was written 20 years ago, at a time when computers were far from being mainstream, it actually predicted digital nomadism, remote work, freelancing, and even Bitcoin itself — or specifically, decentralized currency that’s based on cryptographic algorithms.
+
+                    It’s one of Peter Thiel’s recommended books, and it basically helps set Bitcoin against a wider perspective: a future where more and more power lies in the hands of individuals and national borders collapse.</p>
+            </div>
+            <div class="beginning-col">
+                <h3>How to DeFi: Beginner</h3>
+                <p>TWhen you start exploring crypto, you’ll hear about “decentralized finance” or DeFi pretty quickly. If crypto seems wild, DeFi is even wilder and riskier — you can think of it as a financial revolution that removes banks and other third-party intermediaries from the equation.
+
+                    CoinGecko is a popular price tracker in the crypto space, and their book explains DeFi in a very clear way, with links to articles and blogs on every chapter. It also goes into the various applications of DeFi, from stablecoins to lending and borrowing.</p>
+            </div>
+            
+        </div>
+
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quae a voluptas ratione excepturi nisi ullam consectetur rem adipisci? Et quo possimus quos similique quae! <br>Laborum recusandae beatae sequi saepe, aliquam tenetur ad doloremque alias? Voluptatum nobis ratione consequuntur nesciunt repellendus vero sint quibusdam exercitationem?</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/cnrrismail/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/cnrrismail" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/school/eskisehirteknikuniv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by İsmail Çınar</p>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/design.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>HomePage</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="layout.html"><img src="/items/cover-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="/index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="/about us.html">BEGINNING</a>
+                    </li>
+                    <li>
+                        <a href="/learn.html">LEARN</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+      </section>
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's biggest crypto platform</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil cum sint vero mollitia neque deserunt libero tempore laboriosam eaque ducimus molestias quod nostrum ad in, esse voluptatum, numquam voluptates sequi quis quibusdam? Laboriosam aliquam sapiente voluptates ut cum facere asperiores assumenda nisi, veniam animi quae numquam nam fuga exercitationem porro omnis. Dolores ipsa tenetur quo possimus beatae delectus praesentium quidem!</p>
+                <a href="/learn.html" class="btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="items/behnam-norouzi-RDXcFY5g5O4-unsplash.jpg">
+            </div>
+        </div>
+      </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quae a voluptas ratione excepturi nisi ullam consectetur rem adipisci? Et quo possimus quos similique quae! <br>Laborum recusandae beatae sequi saepe, aliquam tenetur ad doloremque alias? Voluptatum nobis ratione consequuntur nesciunt repellendus vero sint quibusdam exercitationem?</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/cnrrismail/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/cnrrismail" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/school/eskisehirteknikuniv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by İsmail Çınar</p>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
